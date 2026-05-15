@@ -12,7 +12,11 @@ const { toggleWishlist, isWishlisted } = useWishlist();
     e.stopPropagation();
     addItem(product);
   };
-
+{product.onSale && (
+  <span className="sale-badge">
+    SALE
+  </span>
+)}
   return (
     <div className="product-card" onClick={() => navigate(`/product/${product.id}`)}>
       <div className="product-card-img-wrap">
