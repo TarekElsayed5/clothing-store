@@ -39,7 +39,7 @@ const products = [
   { id: 28, name: "Lilac Cropped Hoodie", subtitle: "", price: 840, category: "hoodies", image: "https://storage.googleapis.com/lulu-fanatics/product/89338/1280/lululemon-scuba-full-zip-cropped-hoodie-lilac-smoke-055325-474532.jpg", gender: "women", badge: "Hot" },
   { id: 29, name: "Caramel Zip-Up Hoodie", subtitle: "Half-zip", price: 890, category: "hoodies", image: "https://th.bing.com/th/id/R.473e4c0b905eba080da0fa131a7f3205?rik=OfYOMSKXMeLFVg&riu=http%3a%2f%2fwww.gymreapers.com%2fcdn%2fshop%2ffiles%2fCaramel_CroppedHoodie1.jpg%3fv%3d1705597663%26width%3d2048&ehk=IWkT8bwZ2fIyxodhR0jf5qX%2bnVa%2bjdbonu8bj%2b6C6Ew%3d&risl=&pid=ImgRaw&r=0", gender: "women", badge: null },
 ];
-
+onSale: true
 export const categories = [
   { id: "all",      label: "All" },
   { id: "tshirts",  label: "T-shirts" },
