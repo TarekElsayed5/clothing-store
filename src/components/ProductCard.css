@@ -15,7 +15,12 @@
   box-shadow: var(--shadow);
   transform: translateY(-2px);
 }
-
+.sale-badge{
+  background:red;
+  color:white;
+  padding:5px 10px;
+  border-radius:10px;
+}
 .product-card-img-wrap {
   position: relative;
   overflow: hidden;
