@@ -8,7 +8,7 @@ const HERO_IMAGE = '/images/hero.jpg';
 
 export default function Home() {
   const navigate = useNavigate();
-
+const [darkMode, setDarkMode] = useState(false);
   const tshirts  = products.filter(p => p.category === 'tshirts');
   const babytees = products.filter(p => p.category === 'babytees');
   const boys     = products.filter(p => p.gender === 'men').slice(0, 6);
@@ -28,7 +28,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+   {/* Dark mode */}
+<button onClick={() => setDarkMode(!darkMode)}>
+  🌙
+</button>
       {/* Gender banners */}
       <div className="gender-banners page-container">
         <div className="gender-banner gender-banner--boys" onClick={() => navigate('/shop?gender=men')}>
